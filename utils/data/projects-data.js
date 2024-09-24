@@ -25,6 +25,16 @@ export const projectsData = [
     },
     {
         id: 3,
+        name: 'YT Scrapper',
+        description: 'Built a web scraper with Playwright and Crawlee to extract video data (titles, views, thumbnails) from YouTube playlists and generate visual analytics. Implemented dynamic scroll handling and retries for efficient, robust data extraction from large playlists.',
+        tools: ['Next.js', 'Playwright', 'Crawlee', 'Node.js', 'TypeScript' ],
+        code: 'https://github.com/lanslord11/ytscrapper',
+        // role: 'Full Stack Developer',
+        demo: '',
+        image: realEstate,
+    },
+    {
+        id: 4,
         name: 'Web3 G-Drive',
         description: 'Created a decentralized storage system using IPFS and blockchain, enhancing data resilience and security. Efficiently decentralized frontend deployment using Fleek for enhanced resilience and distributed accessibility.',
         tools: ['React', 'Solidity', 'Ethers', 'Pinata', 'Harddhat', 'IPFS'],
