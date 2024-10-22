@@ -42,6 +42,26 @@ export const projectsData = [
         // role: 'Full Stack Developer',
         demo: '',
         image: realEstate,
+    },
+    {
+        id: 5,
+        name: 'Docker-Reverse-Proxy',
+        description: 'Built a Docker reverse proxy with Node.js, automatically routing traffic to containers without exposing host ports.',
+        tools: ['Node.js', 'Express', 'Dockerode', 'http-proxy', 'Docker'],
+        code: 'https://github.com/lanslord11/docker-reverse-proxy',
+        // role: 'Full Stack Developer',
+        demo: '',
+        image: realEstate,
+    },
+    {
+        id: 6,
+        name: 'Vercel-Clone',
+        description: 'Developed a Vercel clone with Next.js, enabling users to deploy static sites with a single command. Implemented dynamic routing and server-side rendering for enhanced performance and user experience.',
+        tools: ['nextjs', 'React', 'Vercel', 'Node.js'],
+        code: 'https://github.com/lanslord11/vercel-clone',
+        // role: 'Full Stack Developer',
+        demo: '',
+        image: realEstate,
     }
 ];
 
